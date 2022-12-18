@@ -40,4 +40,4 @@ Very simple Arduino based 27C1001 EPROM dumper, based on [kesrut/simple-27C512-d
 - Connect as stated above
 - Execute `python dump.py COMX dump.bin` (being COMX your COM port, like COM2, COM3...)
 
-Dump should take about 10 minutes. The `delay()` between setting the address and reading the data could be much shorter, but slow and steady wins the race. Feel free to tweak it :)
+Dump should take about 10 minutes. The `delay()` between setting the address and reading the data could be much shorter (datasheet states 100ns, and I'm waiting 5 whole ms), but slow and steady wins the race. Feel free to tweak it :)
