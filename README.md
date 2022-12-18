@@ -2,6 +2,8 @@
 Very simple Arduino based 27C1001 EPROM dumper, based on [kesrut/simple-27C512-dumper](https://github.com/kesrut/simple-27C512-dumper)
 
 ## Pin connections
+This connections are for the M27C1001 from ST Microelectronics. Other variations of the 27c1001 should be compatible, but cross reference the datasheet of your exact model before blaming me ;)
+
 |Arduino|27c1001|Comments|
 |-------|-------|--------|
 |22|A0|Address 0|
